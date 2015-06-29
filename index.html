@@ -70,8 +70,11 @@ $ git checkout gh-pages
 
 <p>Here is some sample NVD3 chart. </p>
 
-<script src="/javascripts/mychart.js"></script>
+<script>
+  d3.select("body").append("p").text("New paragraph!");
+</script>
 
+<script src="/javascripts/mychart.js"></script>
 
         </section>
 
